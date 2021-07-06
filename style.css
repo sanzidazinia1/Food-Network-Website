@@ -29,3 +29,9 @@ p {
 .half-width img {
   width: 80%;
 }
+body {
+  background-image: url(food-images/shapes/Frame\ 59.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
