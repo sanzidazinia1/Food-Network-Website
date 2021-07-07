@@ -2,14 +2,38 @@
   margin: 0;
   padding: 0;
 }
-.title {
-  font-weight: 600;
-  font-size: 50px;
-  color: rgb(80, 80, 80);
+.topnav {
+  background-color: rgb(201, 247, 243);
+  overflow: hidden;
 }
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: solid;
+  font-size: 20px;
+}
+.topnav a:hover {
+  background-color: rgb(1, 0, 78);
+  color: rgb(255, 255, 255);
+}
+.topnav input[type="text"] {
+    border: 1px solid #ccc;
+  }
+}
+h1.title {
+  font-weight: 600;
+  color: rgb(175, 174, 174);
+}
+h1.title {
+  font-size: xxx-large;
+}
+
 
 body {
   font-family: "Poppins", sans-serif;
+
 }
 .link-button {
   text-decoration: none;
@@ -47,7 +71,7 @@ body {
 .sec-half-width {
   width: 40%;
   float: right;
-  margin-top: auto;
+  margin-top:40px;
   margin-bottom: 20px;
   text-align: justify;
   margin-right: 5px;
