@@ -129,6 +129,16 @@ div.social_details {
   padding-top: 20px;
   border-radius: 10px;
 }
+#videos {
+  font-size: xxx-large;
+  background-color: thistle;
+  border: 2px solid thistle;
+}
+.videos{
+  padding-left: 40px;
+}
+
+
 
 footer {
   margin-top: 100px;
